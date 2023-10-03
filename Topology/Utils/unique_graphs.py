@@ -140,6 +140,10 @@ def make_graphs_faster(NV, old_gs=None):
     
     return sorted(gs, key=lambda x: len(x))
 
+def make_graphs_very_fast(NV):
+    # call and parse: geng -c 3 | listg -e
+    pass
+
 
 def main():
     data_folder = Path.cwd() / 'Data'
